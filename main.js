@@ -33,6 +33,7 @@ function remove() { // Delete request --url/ + id number
     .then(response => render(response));
 }
 
+
 // Render Function
 function render(res) {
     document.getElementById('render').innerHTML = `
